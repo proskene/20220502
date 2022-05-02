@@ -3,14 +3,15 @@ using namespace std;
 
 int main()
 {
-	int A;
-	A = 100;
+	int MyProject = 100;
+	int Open = 10;
 
-	cout << A + 50 << endl;
-	cout << A - 50 << endl;
-	cout << A * 50 << endl;
-	cout << A / 50 << endl;
-	cout << A % 3 << endl;
+	cout << MyProject + Open << endl;
+	cout << MyProject - Open << endl;
+	cout << MyProject * Open << endl;
+	cout << MyProject / Open << endl;
+	cout << MyProject % Open << endl;
+	
 
 	float B;
 	B = 1.5f;
@@ -19,4 +20,6 @@ int main()
 	cout << B - 50 << endl;
 	cout << B * 50 << endl;
 	cout << B / 50 << endl;
+
+	return 0;
 }
