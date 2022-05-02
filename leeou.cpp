@@ -3,22 +3,15 @@ using namespace std;
 
 int main()
 {
-	int Sum = 0;
-	for (int i = 1; i <= 100; i += 2)
+	for (int i = 1; i <= 5; i++)
+
 	{
-		Sum += i;
-	}
-
-		cout << Sum << endl;
-			
-		int Sum1 = 0;
-		for (int Q = 1; Q <= 100; Q += 3)
+		for (int i = 1; i <= 5; i++)
 		{
-			Sum1 += Q;
+			cout << "*";
 		}
-		cout << Sum1 << endl;
-		cout << Sum -Sum1 << endl;
-
+		cout << endl;
+	}
 	return 0;
 }
 
