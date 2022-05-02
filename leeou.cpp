@@ -14,7 +14,7 @@ int main()
 	
 
 	float B;
-	B = 1.5f;
+	B = 2.5f;
 
 	cout << B + 50 << endl;
 	cout << B - 50 << endl;
