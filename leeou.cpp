@@ -3,25 +3,22 @@ using namespace std;
 
 int main()
 {
-	int MyProject = 100;
-	int Open = 10;
+	int Sum = 0;
+	for (int i = 1; i <= 100; i += 2)
+	{
+		Sum += i;
+	}
 
-	cout << MyProject + Open << endl;
-	cout << MyProject - Open << endl;
-	cout << MyProject * Open << endl;
-	cout << MyProject / Open << endl;
-	cout << MyProject % Open << endl;
-	
-
-	float Re = 0.1f;
-	float Gr= 0.3f;
-	float Bl = 0.2f;
-
-	float GrayColor = (0.299f * Re) + (0.587f * Gr) + (0.114 * Bl); 
-
-
-	cout << GrayColor << endl;
-	
+		cout << Sum << endl;
+			
+		int Sum1 = 0;
+		for (int Q = 1; Q <= 100; Q += 3)
+		{
+			Sum1 += Q;
+		}
+		cout << Sum1 << endl;
+		cout << Sum -Sum1 << endl;
 
 	return 0;
 }
+
