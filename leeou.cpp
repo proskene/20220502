@@ -13,13 +13,15 @@ int main()
 	cout << MyProject % Open << endl;
 	
 
-	float B;
-	B = 2.5f;
+	float Re = 0.1f;
+	float Gr= 0.3f;
+	float Bl = 0.2f;
 
-	cout << B + 50 << endl;
-	cout << B - 50 << endl;
-	cout << B * 50 << endl;
-	cout << B / 50 << endl;
+	float GrayColor = (0.299f * Re) + (0.587f * Gr) + (0.114 * Bl); 
+
+
+	cout << GrayColor << endl;
+	
 
 	return 0;
 }
