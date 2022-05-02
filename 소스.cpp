@@ -13,7 +13,7 @@ int main()
 	cout << A % 3 << endl;
 
 	float B;
-	B = 10.5f;
+	B = 1.5f;
 
 	cout << B + 50 << endl;
 	cout << B - 50 << endl;
