@@ -5,10 +5,9 @@ int main()
 {
 	int count = 0;
 	cin >> count;
-	for (int a = 1; a <= count; ++a)
-
+	for (int a = count; a >= 1; --a)
 	{
-		for (int i = 1; i <= a; ++i)
+	for (int i = 1; i <= a; --i)
 		{
 			cout << "*";
 		}
